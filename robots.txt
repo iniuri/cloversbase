@@ -1,0 +1,44 @@
+# -------------------------------------
+# ALLOWED CRAWL BOTS
+# (which will probably be ignored)
+# -------------------------------------
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Qwant
+User-agent: Qwantify
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# Apple (Siri / Spotlight)
+User-agent: Applebot
+Allow: /
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+
+# -------------------------------------
+# BLOCKS
+# -------------------------------------
+
+# This applies to any bot not explicitly named above.
+User-agent: *
+Disallow: /
+
+# Glory to ukraine!
+User-agent: YandexBot
+Disallow: /
+
+# nooo bing dont blame yourself :broken_heart: (fuck you microsoft!)
+User-agent: Bing
+Disallow: /
