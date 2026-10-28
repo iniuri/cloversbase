@@ -1,4 +1,3 @@
-// copy buttons: <button class="copy" data-copy="element-id">
 document.querySelectorAll(".copy").forEach((btn) => {
   btn.addEventListener("click", async () => {
     const text = document.getElementById(btn.dataset.copy).textContent.trim();
@@ -16,8 +15,6 @@ document.querySelectorAll(".copy").forEach((btn) => {
   });
 });
 
-// pat the :3 — plays patpat.mp3, squishes it and floats a little :3 up.
-// works by clicking the :3 on the home page, or typing ":3" anywhere.
 const patSound = new Audio("patpat.mp3");
 patSound.preload = "auto";
 const patBtn = document.querySelector(".pat");
